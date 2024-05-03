@@ -1,0 +1,92 @@
+.todo-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 8px 16px;
+  background-color: #09def1;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task span {
+  flex: 1;
+}
+
+.btn-container button {
+  margin-left: 5px;
+  padding: 4px 8px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: rgb(227, 13, 13);
+}
+
+.delete:hover {
+  background-color: rgb(22, 19, 19);
+}
+
+.moveup {
+  background-color: rgb(11, 232, 170);
+}
+
+.moveup:hover {
+  background-color: rgb(22, 19, 19);
+}
+
+.movedown {
+  background-color: rgb(8, 246, 99);
+}
+
+.movedown:hover {
+  background-color: rgb(22, 19, 19);
+}
