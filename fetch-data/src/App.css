@@ -1,0 +1,92 @@
+button {
+  color: white;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(135deg, rgb(12, 26, 224), rgb(59, 143, 211));
+  padding: 12px 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+.left-col {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+
+.right-col {
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+
+.logo {
+  color: white;
+}
+
+.row {
+  height: 50px;
+  padding: 20px 50px 0px 30px;
+}
+
+.box {
+  background-color: rgb(8, 8, 8) !important;
+}
+
+.box2 {
+  margin-left: 100px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.column3 {
+  float: left !important;
+  width: 33% !important;
+}
+
+h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.profile {
+  border: 2px solid rgb(255, 166, 255);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgb(110, 131, 253), rgb(40, 234, 73));
+  transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.profile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.loader {
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+}
